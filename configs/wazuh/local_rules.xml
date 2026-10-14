@@ -1,0 +1,7 @@
+<group name="squid,soc_lab,driveby_prevention,">
+  <rule id="100200" level="8">
+    <if_sid>35005</if_sid>
+    <url type="pcre2">^http://127\.0\.0\.1:8089/start(\?.*)?$</url>
+    <description>SOC LAB: Squid blocked Drive-by Download simulation URL</description>
+  </rule>
+</group>
